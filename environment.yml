@@ -3,33 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  # - python=3.8.17
-  # - numpy=1.24.4
+  - python=3.8.17
+  - numpy=1.24.4
   # - Image
-  # - tensorflow=2.13.0
+  - tensorflow=2.12.1
 
-  - bzip2=1.0.8=h3422bc3_4
-  - ca-certificates=2023.7.22=hf0a4a13_0
-  - libblas=3.9.0=17_osxarm64_openblas
-  - libcblas=3.9.0=17_osxarm64_openblas
-  - libcxx=16.0.6=h4653b0c_0
-  - libffi=3.4.2=h3422bc3_5
-  - libgfortran=5.0.0=12_3_0_hd922786_1
-  - libgfortran5=12.3.0=ha3a6a3e_1
-  - liblapack=3.9.0=17_osxarm64_openblas
-  - libopenblas=0.3.23=openmp_hc731615_0
-  - libsqlite=3.43.0=hb31c410_0
-  - libzlib=1.2.13=h53f4e23_5
-  - llvm-openmp=16.0.6=h1c12783_0
-  - ncurses=6.4=h7ea286d_0
-  - numpy=1.24.4=py38ha84db1f_0
-  - openssl=3.1.2=h53f4e23_0
-  - pip=23.2.1=pyhd8ed1ab_0
-  - python=3.8.17=h3ba56d0_0_cpython
-  - python_abi=3.8=3_cp38
-  - readline=8.2=h92ec313_1
-  - setuptools=68.1.2=pyhd8ed1ab_0
-  - tk=8.6.12=he1e0b03_0
-  - wheel=0.41.2=pyhd8ed1ab_0
-  - xz=5.2.6=h57fd34a_0
 prefix: /Users/panachai/micromamba/envs/gesture-liner-ai
