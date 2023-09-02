@@ -1,3 +1,6 @@
+r: run
+run:
+	python example.py
 
 r.e: reset.env
 reset.env:
