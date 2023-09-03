@@ -1,0 +1,2 @@
+# try
+curl -X POST -F "image=@/path/to/your/image.jpg" http://localhost:5000/classify
