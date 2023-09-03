@@ -30,7 +30,7 @@ jobs:
           else
             version="latest"
           fi
-          echo "::set-output name=version::${version}"
+          echo "version=${version}" >> $GITHUB_OUTPUT
       - name: Display Version
         run: |
           version="${{ steps.set-version.outputs.version }}"
