@@ -1,6 +1,9 @@
 dev:
 	python app.py
 
+serve:
+	gunicorn -w 4 -b 0.0.0.0:3800 app:app
+
 a: activate
 activate:
 	conda activate gesture-liner-ai
@@ -20,4 +23,4 @@ docker.build:
 
 d.r: docker.run
 docker.run:
-	docker run -p 5000:5000 tensorflow_liner_ai_api
+	docker run -p 3800:3800 tensorflow_liner_ai_api
