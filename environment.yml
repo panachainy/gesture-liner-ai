@@ -10,4 +10,4 @@ dependencies:
   - flask=2.3.3
   - gunicorn=21.2.0
 
-prefix: /Users/panachai/micromamba/envs/gesture-liner-ai
+prefix: ~/micromamba/envs/gesture-liner-ai
