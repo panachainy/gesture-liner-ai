@@ -8,5 +8,6 @@ dependencies:
   - pillow=10.0.0
   - tensorflow=2.12.1
   - flask=2.3.3
+  - gunicorn=21.2.0
 
 prefix: /Users/panachai/micromamba/envs/gesture-liner-ai
