@@ -1,4 +1,4 @@
-name: gesture-liner-ai
+name: tensorflow-liner-ai
 channels:
   - conda-forge
   - defaults
@@ -10,4 +10,4 @@ dependencies:
   - flask=2.3.3
   - gunicorn=21.2.0
 
-prefix: ~/micromamba/envs/gesture-liner-ai
+prefix: ~/micromamba/envs/tensorflow-liner-ai

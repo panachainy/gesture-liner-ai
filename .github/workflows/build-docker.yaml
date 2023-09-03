@@ -9,7 +9,9 @@ on:
     types: [published]
 
 env:
-  IMAGE_NAME: ${{ github.repository }}
+  # can't use `${{ github.repository }}` because it receive `octocat/Hello-World` - octocat is duplicate to owner of repo
+  IMAGE_NAME: tensorflow-liner-ai
+  # ex. `ghcr.io/octocat`
   REGISTRY_NAME: ghcr.io/${{ github.repository_owner }}
   LATEST_BRANCH: dev
   DOCKER_SOURCE: ghcr.io

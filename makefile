@@ -6,12 +6,12 @@ serve:
 
 a: activate
 activate:
-	conda activate gesture-liner-ai
+	conda activate tensorflow-liner-ai
 
 r.e: reset.env
 reset.env:
-	conda remove --name gesture-liner-ai --all
-	conda env create -n gesture-liner-ai --file environment.yml
+	conda remove --name tensorflow-liner-ai --all
+	conda env create -n tensorflow-liner-ai --file environment.yml
 
 e: export
 export:
