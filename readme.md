@@ -1,34 +1,40 @@
 # Tensorflow liner ai
 
-## conda cli
+## Docker usage
+
+`docker pull ghcr.io/panachainy/panachainy/tensorflow-liner-ai:latest`
+
+## Development
+
+### conda cli
 
 ```sh
 # create
-conda create --name gesture-liner-ai
+conda create --name tensorflow-liner-ai
 # activate
-conda activate gesture-liner-ai
+conda activate tensorflow-liner-ai
 # deactivate
-conda deactivate gesture-liner-ai
+conda deactivate tensorflow-liner-ai
 # export
 conda env export > environment.yml
 # import
-conda env create -n gesture-liner-ai --file environment.yml
+conda env create -n tensorflow-liner-ai --file environment.yml
 # remove
-conda remove --name gesture-liner-ai --all
+conda remove --name tensorflow-liner-ai --all
 ```
 
-### first time
+#### first time
 
 ```sh
-conda env create -n gesture-liner-ai --file environment.yml
-conda activate gesture-liner-ai
+conda env create -n tensorflow-liner-ai --file environment.yml
+conda activate tensorflow-liner-ai
 ```
 
-## Develop
+### Develop
 
 1. download [liner.ai](https://liner.ai/download)
 2. train model
 3. export to python
 4. copy to this project
-5. `conda activate gesture-liner-ai`
-6. python example.py
+5. `conda activate tensorflow-liner-ai`
+6. python app.py

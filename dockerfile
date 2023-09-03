@@ -11,7 +11,7 @@ COPY . /app
 RUN conda env create -f environment.yml
 
 # Activate the Conda environment
-SHELL ["conda", "run", "-n", "gesture-liner-ai", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "tensorflow-liner-ai", "/bin/bash", "-c"]
 
 # Expose port 3800
 EXPOSE 3800
