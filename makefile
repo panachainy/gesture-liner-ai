@@ -1,6 +1,5 @@
-r: run
-run:
-	python example.py
+dev:
+	python app.py
 
 a: activate
 activate:
